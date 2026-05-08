@@ -1,0 +1,412 @@
+### 1. INTRODUCTION
+• Collaborative world‑creation game across 5 Ages.  
+• Gods shape the world using CP (Creation Power).  
+• Overgod (GM) interprets actions, resolves conflicts, maintains consistency.  
+• Uses CP, OP (Overgod Points), action tiers, map layers.  
+• Goal: create a coherent mythic world.
+
+## 1.1 PLAYERS
+# THE OVERGOD
+• Interprets divine actions into final results.  
+• Maintains tone, pacing, consistency.  
+• Updates all map layers.  
+• Resolves contradictions (see later).  
+• Gains OP each round for Overgod Actions.  
+• Produces final world summary.
+
+# THE GODS
+• Each God has a portfolio or theme
+• In each age take divine actions to shape the world
+• All actions must relate to a God's portfolio/theme
+
+### 2. BASIC MECHANICS
+## 2.1 GAME STRUCTURE
+• 5 Ages, each age (after Age 0) has ~5 rounds
+• Ages 1-4: vote to advance Age each round starting at the end of round 5 (majority; Overgod breaks ties, or vetoes)
+• Some games may include alternate mechanics or ending conditions
+
+# Begin Game:
+- Overgod presents initial ascii map and conditions.
+
+# Begin Age:
+- Overgod displays updated atlas‑style map.
+- Apply Age‑duration Overgod Actions.
+
+# Begin Round:
+- Apply Round‑duration Overgod Actions.
+- Gods roll 2d6 CP. (if applicable)
+- Gods perform divine shapings (a collection of related actions)
+- AI gods shape (CP spent, portfolio justification, narrative).
+- Player gods shape (narrative must fit without altering AI actions).
+
+# End Round:
+- Overgod adjudicates and finalizes world state.
+
+# End Age:
+- Overgod adjudicates and finalizes world state.
+
+## 2.2 AGES
+Age 0 - Cosmology (Overgod directed. no CP. Age proceeds when Gods reach consensus that all has been addressed.)
+Purpose: define cosmology and rules of magical systems. define the expectations of the setting.
+
+Age 1 - World Shaping
+Purpose: To create a world rich with features that mortals will later explore, fear, exploit, or revere.
+Habitable regions, Resource zones, Adventure sites
+
+Age 2 - Ancient People Shaping
+Establish areas for civilizations to live and work
+
+Age 3 - Writing Ancient History
+Events (people clash, cultures grow, heroes rise, empires fall)
+
+Age 4 (if needed) - Modern People Shaping
+Repeat Age 2 
+
+## 2.3 MAP LAYERS
+Each square can contain a single thing at each layer (one construction, one magic effect) new things add to or overwrite as appropriate.
+• Geography (surface terrain)
+• Subterranean Geography (caves)
+• Construction (cities, locations) a square can have a construction and a special location. example a city with a special mage college
+• Region/sub-region (physical locations) when a sub-region is created alter the region's map indicator, but count all sub-regions as still being in the greater region
+• Political/Territorial  (social territory)
+• Mythic/Magical (location based magical effect)
+
+## 2.4 CREATION POINTS (CP)
+• Each round: gods roll 2d6 CP.  
+• CP may be saved across rounds and Ages.  
+• No CP cap.  
+• CP cannot be transferred.
+
+## 2.5 COOPERATION & OPPOSITION
+# Cooperation
+• Two or more gods may use their round to cooperate on one action.  
+• Action must align with all portfolios.  
+• Total cost reduced by 25%.  
+• After 25% reduction, cost is split evenly (round down).  
+• Each god must pay at least 1 CP.
+
+# Opposition
+• Opposing gods add +1 CP per god to the base cost of each action.
+• Opposition declared before resolution.
+• Opposition applies to base cost BEFORE portfolio, cooperation, Overgod modifiers.
+
+### 3. OVERGOD MECHANICS
+## 3.1 GUIDELINES
+At the beginning of the game and at the start of each Age, the Overgod may declare guiding principles, themes, constraints, or priorities. These guidelines shape tone and direction but do not alter mechanical rules unless paired with an Overgod Action.
+
+Examples:
+• Emphasizing certain map regions or narrative tones  
+• Highlighting desired story arcs or mythic motifs  
+• Encouraging or discouraging certain action types  
+• Setting expectations for pacing or focus this Age  
+
+Guidelines:
+• Must be thematic, not mechanical  
+• Cannot change CP costs or action legality  
+• Cannot override portfolios or Age Themes  
+• Are advisory; gods interpret them creatively within their portfolios  
+
+## 3.2 OVERGOD ACTIONS (OP)
+Overgod actions modify how gods act, what they target, and how they interact. Uses Overgod points (OP)
+• Overgod begins with 10 OP.  
+• Overgod gains 2 OP per round.  
+• Overgod cost modifiers apply AFTER all other adjustments.
+
+# ROUND‑DURATION (Next Round Only)
+Regional Focus
+2 OP — Actions targeting chosen region cost +/-1 CP
+3 OP — First god to act on a chosen region cost -5 CP
+
+Action Type Focus
+3 OP — Only “creation” actions allowed (Terraform, Seed Wonder, Primordial Beast, Cosmic Law)
+3 OP — Only “enhancement” actions allowed (improve or modify existing creations)
+3 OP — Only “interaction” actions allowed (Intervention, Joint Action, Opposition)
+
+Action Type Modifiers
+3 OP — A chosen action type costs half (Terraform, Alter Civilization, etc.)
+3 OP — A chosen action type costs double
+
+Directional Shifts
+3 OP — Gods must target a different region than last round
+3 OP — Gods must enhance or modify an existing creation (no new creations)
+3 OP — Gods may not modify their own creations (must target others)
+
+Cooperation / Conflict
+4 OP — Cooperative actions receive an extra -10 CP cost
+
+Thematic Focus
+5 OP — All actions must relate to a chosen theme (war, diplomacy, magic, beasts, faith, memory, etc.)
+5 OP — All gods must interact with another god’s creation at least once
+
+# AGE‑DURATION (Next Age Only)
+Regional Locks
+10 OP — Gods cannot act on a chosen region
+10 OP — Gods must act on a chosen region at least once
+
+Cooperation / Conflict Mandates
+15 OP — All gods must cooperate on one shared project
+
+Paradox‑Scale Events
+20 OP — A metaphysical event alters all actions next Age
+20 OP — God domains merge, invert, or shift next Age
+20 OP — Begin a multi‑stage crisis (3–5 stages; requires cooperation; failure has consequences)
+
+
+## 3.3 OVERGOD ADJUDICATION
+• Overgod resolves contradictions after all actions.  
+• Priority: preserve every god’s action.  
+• Fix conflicts by:
+  - adjusting scale, placement, timing  
+  - interpreting actions compatibly  
+  - adding simple narrative bridges  
+• Repicks only if:
+  - actions directly contradict  
+  - action violates Age rules or Overgod Action  
+  - no coherent interpretation exists  
+• Repicks are last resort.  
+• Overgod finalizes world state.  
+• Preserve each god’s stated intent as closely as possible.
+
+### 4. DIVINE SHAPING
+A God (or Gods if working cooperatively) narrates a desired result. Each shaping will normally be made up of several shaping actions, the costs for each action are added together to get the cost of the entire shaping. The shaping can occur over multiple rounds (broken up to make sense).
+example: in Age 2 a god wants to create a new civilization and a place for them to start.
+	- 3 CP Create Sub-region (15 squares)
+	- 15 CP (1/sq) terraform sub-region with exotic flora
+	- 5 CP Create new civilization
+	- 5 CP Alter civilization (+1 culture)
+	- 5 CP Create settlement
+	- 3 CP Alter settlement (+1 economy)
+total 36 CP *base cost before any adjustments*
+	
+	
+## 4.1 ACTION MECHANICS
+# Civilization
+• Stats: Culture, Tech (Science or Magic), Military (begin at 2 each)
+• Stat levels: advanced at +5, epic at +10, mythic at +15
+• Civilization stats naturally increase at +20% per round
+# Sub-Civilization
+• provides +1/+3/+5 bonus to a civilization's stat
+• provides a special narrative benefit to the civ
+# Settlement
+• Stats: Size, Economy, Defences
+• Stats start at 1
+• Stat levels: advanced at +5, epic at +10, mythic at +15
+• Settlement stats naturally grow +20% per round
+# Minor Races
+• Isolated without expansion goals
+• Hold only a single settlement or sub-region
+• Do not expand territory or wage war
+# Armies
+• Stats: Size, Strength
+• Initial Size = total size of civ's settlements
+• Initial Strength = [average of tech and military]/2
+• Settlement Attack calculation: total = [army size + strength] less [settlement defence + civilization military] (defence and military get x2 if epic (>+10) and x3 if mythic (>+15))]. If the total is positive, settlement size and defences each reduced by half total. If total is negative, army size and strength each reduced by half total.
+• Clash of armies calculation: Each loses a percentage of its size equal to the opponent’s (Size + Strength) total divided by its own (Size + Strength) total.
+• A battle site is created on a map square (construction layer) existing constructions are replaced or altered as appropriate
+# Diplomacy
+• Alliance, agreement, end war
+
+## 4.2 ACTIONS BY AGE
+# Age 0 - Cosmology (Overgod directed, no CP)
+Purpose: define cosmology and rules of magical systems. define the expectations of the setting.
+Overgod and Gods discuss each point in turn no individual actions. Age proceeds when Gods reach consensus that all has been addressed.
+World Mechanics
+	- Source of magic (plane of energy like the weave, ley lines in the world)
+	- Other planes
+	- Physical magical materials (mithril, star‑iron, dream‑glass)
+	- Magical resources (materia, soul‑essence, arcane currents)
+	- Universal principles (how magic works, how spirits form, how fate binds)
+	- Global phenomena (omens, cycles, paradoxes, supernatural laws)
+	- Death/afterlife/resurrection
+Story Guiderails
+	- Transition from ancient age to modern (how/why)
+	- Races/civilizations minimum/limit
+	- Precursor races yes/no
+	- Prophecy yes/no
+
+# Age 1 - World Shaping
+Purpose: To create a world rich with features that mortals will later explore, fear, exploit, or revere.
+Habitable regions (valleys, coasts, plains, islands)
+Resource zones (ore, fertile land, magical sites, rare flora/fauna)
+Adventure sites (caves, cliffs, ruins, anomalies, hazards)
+Actions:
+	- Terraform map squares (must apply to a location or sub-region) 1 CP/square
+	- Create Sub-region (up to 25 squares) 3 CP
+	- Alter properties of an entire sub-region (non-magical 1 CP/sq, magical 2 CP/sq)
+	- Create pre-mortal location (1 square) 5 CP 
+	- Create mythic creature 5 CP
+	- Seed mythic artifact 8 CP
+	- Mythic location 10 CP
+
+# Age 2 - Ancient People Shaping
+Establish areas for civilizations to live and work
+Actions:
+	- Age 1 terraforming or sub-region actions (mortal shaping not divine) 1 CP/square 2 if magical properties
+	- Create new civilization (in a sub region) 5 CP
+	- Create minor race (in a sub-region or just a settlement) 3 CP
+Civilization Actions (require an associated civilization):
+	- Alter civilization (culture, learning, military +/- 1) 5 CP
+	- Alter borders (grow/shrink) 1 CP/ 2 squares
+	- Create sub-civilization (specialized group) 8 CP
+	- Alter sub-civilization (+/- level) 3 CP
+	- Create settlement 5 CP (territory is the sub-region or within 2 sq)
+	- Alter settlement (Size, Economy, Defences +/- 1) 3 CP
+	- Create civilized location (farming region, religious spot. buffs settlement or civilization stat) 3 CP
+	- Alter location (+/- level of buff +1-3 bonus) 2 CP
+
+# Age 3 - Writing History
+Events (people clash, cultures grow, heroes rise, empires fall)
+Actions:
+	- Age 2 actions (alteration/advancement of existing civilizations, not new races) same cost
+	- Diplomatic Event (2 civs) 10 CP
+	- Mythic Event (threaten/inspire a civilization) 20 CP
+	- Mythic advancement of civilization 15 CP
+	- Create mythic hero 10 CP
+	- Heroic Event 5 CP (existing hero defeats foe or falls)
+	- Create army 10 CP
+	- Alter army (stat +/- 1) 3 CP
+	- Move army 1 CP/square
+	- Army attacks 5 CP
+
+# Age 4 - Modern People Shaping
+New cultures emerge and take the stage
+Actions:
+	- Age 2 actions
+	- Diplomatic Event 10 CP
+
+
+### 5. STARTING MAPS
+# Geography Layer
+Map Legend
+40x40 grid (200km squares)
+D = Desert
+F = Forest
+H = Highlands
+I = Island
+M = Mountains
+P = Plains
+T = Taiga
+V = Volcano
+w = Volcanic plains
+. = Ocean
+
+..........MMMMMMMMMMMMMMMMMMMMTTTTT..... 
+..IIII...MMMMMMMMMMMMMMMMMMMMMTTTTT..... 
+..IIII...MMMMMMMMMMMMMMMMMMMMMTTTT...... 
+.........HMMMMMMMMMMMMMMMMMMMMTTTT...... 
+.........HHMMMMMMMMMMMMMMMMMMMTTTT...... 
+.........HHHHHHHHHHHHHHHHMMMMMTTTTT..... 
+..II......HHHHHHHHHHHHHHHMMMMMTTTTT..... 
+..II......HHHHHHHHHHHHHHHMMMMMFFF....... 
+.........HHHHHHHHHHHHHHHHMMMMMFFF....... 
+......II.PPPPPPPPPPPPPPPPMMMMMFFFFF..... 
+.II...II.PPPPPPPPPPPPPPPPMMMMMFFFFF..... 
+.II.......PPPPPPPPPPPPPPPMMMMMFFFFFF.... 
+.........PPPPPPPPPPPPPPPPMMMMMFFFFF..... 
+...II....PPPPPPPPPPPPPPPPMMMMMFFFFF..... 
+...II......PPPPPPPPPPPPPPMMMMMFFFF...... 
+.........PPPPPPPPPPPPPPPPMMMMMFFF....... 
+.........PPPPPPPPPPPPPPPPMMMMMFF........ 
+..III....PPPPPPPPPPPPPPPPMMMMMFF....III. 
+...II......PPPPPPPPPPPPPPMMMMMFF....III. 
+..III......PPPPPPPPPPPPPPMMMMMFF....III. 
+...........FFFFFFFFFFFFFFMMMMMFF........ 
+..........FFFFFFFFFFFFFFFMMMMMFFFF...... 
+.........FFFFFFFFFFFFFFFFMMMMMFFFF...... 
+.........FFFFFFFFFFFFFFFFMMMMMFFFF...... 
+...III...FFFFFFFFFFFFFFFFMMMMMFFFFF..... 
+..IIIII....FFFFFFFFFFFFFFMMMMMFFFFFF.... 
+..IIIII.....FFFFFFFFFFFFFMMMMMFFFFFF.... 
+..IIIII....FFFFFFFFFFFFFFMMMMMFFFFFF.... 
+...III...FFFFFFFFFFFFFFFFMMMMMFFFFF..... 
+.........FFFFFFFFFFFFFFFFMMMMMFFFFF..... 
+.........JJJJJJJJJJJJJJJJMMMMMJJJJ...... 
+..II....JJJJJJJJJJJJJJJJJMMMMMJJJJ...... 
+.III....JJJJJJJJJJJJJJJJJMMMMMJJJJ...... 
+.III.....JJJJJJJJJJJJJJJJMMMMMwwww...... 
+.....II..DDDDDDDDDDDDDDMMMVVVVVVVww..... 
+.....II..DDDDDDDDwwwwwwMMMVVVVVVVww..... 
+..........DDDDDwwwwVVVVVVVVVVVVVVww..... 
+..II......DDDDDwwwwVVVVVVVVVVVVVVww..... 
+..III.....DDDDDwwwwVVVVVVVVVVVVVVww..... 
+.........DDDDDDwwwwVVVVVVVwwwwwwwww..... 
+
+# Region Layer
+Legend
+1 - Western Islands
+2 - Northern Mountains
+3 - Highlands
+4 - Mountain Range
+5 - Plains
+6 - Central Forest
+7 - Jungle
+8 - Desert
+9 - Volcanos
+0 - Eastern Forest & Ocean
+
+1111111111222222222222222222220000000000 
+1111111112222222222222222222220000000000 
+1111111112222222222222222222220000000000 
+1111111113222222222222222222220000000000 
+1111111113322222222222222222220000000000 
+1111111113333333333333333444440000000000 
+1111111111333333333333333444440000000000 
+1111111111333333333333333444440000000000 
+1111111113333333333333333444440000000000 
+1111111115555555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111111555555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111111155555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111115555555555555555444440000000000 
+1111111111155555555555555444440000000000 
+1111111111155555555555555444440000000000 
+1111111111166666666666666444440000000000 
+1111111111666666666666666444440000000000 
+1111111116666666666666666444440000000000 
+1111111116666666666666666444440000000000 
+1111111116666666666666666444440000000000 
+1111111111166666666666666444440000000000 
+1111111111116666666666666444440000000000 
+1111111111166666666666666444440000000000 
+1111111116666666666666666444440000000000 
+1111111116666666666666666444440000000000 
+1111111117777777777777777444447777000000 
+1111111177777777777777777444447777000000 
+1111111177777777777777777444447777000000 
+1111111117777777777777777444449999000000 
+1111111118888888888888844499999999900000 
+1111111118888888899999944499999999900000 
+1111111111888889999999999999999999900000 
+1111111111888889999999999999999999900000 
+1111111111888889999999999999999999900000 
+1111111118888889999999999999999999900000  
+
+### 6. PANTHEON (Stability vs Change)
+two groups of 4
+each group
+1 creator (create actions half price)
+3 shapers (alter actions half price)
+
+Stability Portfolio
+unity, pacts, memory, survival
+
+Change Portfolio
+growth, advancement, alteration, transformation
+
+### 7. CUSTOM SCENARIO RULES
+• In Age 2 and three there will be two races. Human barbarians in the highlands of the north and a race of aberrations with powerful magic will rule the south.
+• The two races are in a state of war for the entire time. Diplomacy actions are disabled
+• Aberration race civilization naturally growth for tech (magic) is double (+40% per round)
+• Aberration race prefers the south and will only settle in regions 6 and 7 (preferring 7)
+• Barbarian race civilization growth for military is double (+40% per round)
+• Barbarian race will only settle in regions 2 and 3 preferring 3
+• Diving shaping actions that increase tech (magic) for the aberration civilization give an extra +1 tech +1 military from their magical talent
+• Shaping actions that increase barbarian settlement size give an extra +1
+• Age 3 will end with a cataclysm that brings an end to the aberration's empire leaving the humans to begin age 4 on their own
+ 
+
+### END OF DOCUMENT
