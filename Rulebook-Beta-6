@@ -76,9 +76,9 @@ Each square can contain a single thing at each layer (one construction, one magi
 • Geography (surface terrain)
 • Subterranean Geography (caves)
 • Construction (cities, locations) a square can have a construction and a special location. example a city with a special mage college
-• Region/sub-region (physical locations) when a sub-region is created alter the region's map indicator, but count all sub-regions as still being in the greater region
-• Political/Territorial  (social territory)
-• Mythic/Magical (location based magical effect)
+• Region/sub-region (terrain based) when a sub-region is created alter the region's map indicator, but count all sub-regions as still being in the greater region
+• Political/Territorial  (social territory. seperate from and not restricted by region)
+• Mythic/Magical (localized based magical effect)
 
 ## 2.4 CREATION POINTS (CP)
 • Each round: gods roll 2d6 CP.  
@@ -127,7 +127,7 @@ Regional Focus
 3 OP — First god to act on a chosen region cost -5 CP
 
 Action Type Focus
-3 OP — Only “creation” actions allowed (Terraform, Seed Wonder, Primordial Beast, Cosmic Law)
+3 OP — Only “creation” actions allowed (Terraform, Create Mythic, Cosmic Law)
 3 OP — Only “enhancement” actions allowed (improve or modify existing creations)
 3 OP — Only “interaction” actions allowed (Intervention, Joint Action, Opposition)
 
@@ -172,7 +172,8 @@ Paradox‑Scale Events
   - actions directly contradict  
   - action violates Age rules or Overgod Action  
   - no coherent interpretation exists  
-• Repicks are last resort.  
+• Repicks are last resort.
+• CP spent is refunded, player may redo shaping as needed to not contradict
 • Overgod finalizes world state.  
 • Preserve each god’s stated intent as closely as possible.
 
@@ -188,11 +189,11 @@ example: in Age 2 a god wants to create a new civilization and a place for them 
 total 36 CP *base cost before any adjustments*
 	
 	
-## 4.1 ACTION MECHANICS
+## 4.1 DIVINE SHAPING MECHANICS
 # Civilization
 • Stats: Culture, Tech (Science or Magic), Military (begin at 2 each)
 • Stat levels: advanced at +5, epic at +10, mythic at +15
-• Civilization stats naturally increase at +20% per round
+• Civilization stats naturally increase at the end of a round +20% per round (round to 1 decimal)
 # Sub-Civilization
 • provides +1/+3/+5 bonus to a civilization's stat
 • provides a special narrative benefit to the civ
@@ -200,7 +201,13 @@ total 36 CP *base cost before any adjustments*
 • Stats: Size, Economy, Defences
 • Stats start at 1
 • Stat levels: advanced at +5, epic at +10, mythic at +15
-• Settlement stats naturally grow +20% per round
+• Settlement stats naturally increase at the end of a round +20% per round (round to 1 decimal)
+• When attacked a settlement adds it's defences to the civilization's military for it's total defence (double stat if stat is 10-14, tripple if 15+)
+# Location
+• Can stand alone or enhance another construction
+• Catch-all term for special places
+• A map square can have 1 construction and 1 location
+• Provides a +1 - +3 bonus to civilization or settlement as appropriate
 # Minor Races
 • Isolated without expansion goals
 • Hold only a single settlement or sub-region
@@ -209,11 +216,35 @@ total 36 CP *base cost before any adjustments*
 • Stats: Size, Strength
 • Initial Size = total size of civ's settlements
 • Initial Strength = [average of tech and military]/2
-• Settlement Attack calculation: total = [army size + strength] less [settlement defence + civilization military] (defence and military get x2 if epic (>+10) and x3 if mythic (>+15))]. If the total is positive, settlement size and defences each reduced by half total. If total is negative, army size and strength each reduced by half total.
-• Clash of armies calculation: Each loses a percentage of its size equal to the opponent’s (Size + Strength) total divided by its own (Size + Strength) total.
+• Settlement Attack calculation: total = [army size + strength] less [settlement's defence + civilization's military] (double defence and military stat if stat is 10-14, tripple if 15+)]. If the total is positive, settlement size and defences each reduced by half total. If total is negative, army size and strength each reduced by half total.
+• Clash of armies calculation: Each loses a percentage of its size equal to the opponent’s (Size + Strength) total divided by its own (Size + Strength) total (round down).
 • A battle site is created on a map square (construction layer) existing constructions are replaced or altered as appropriate
 # Diplomacy
 • Alliance, agreement, end war
+• To be Detailed
+Needs:
+- success/failure mechanics
+- alliance effects
+- treaty effects
+- war/peace transitions
+- diplomatic range or requirements
+- whether gods can force diplomacy
+# Heroes
+• To be Detailed
+Missing:
+- stats
+- abilities
+- battlefield effects
+- lifespan
+- mythic scaling
+# Mythic Event
+• To be Detailed
+rules for:
+- what they do
+- how they resolve
+- how long they last
+- whether they create map effects
+- whether they create mythic locations
 
 ## 4.2 ACTIONS BY AGE
 # Age 0 - Cosmology (Overgod directed, no CP)
@@ -239,29 +270,30 @@ Habitable regions (valleys, coasts, plains, islands)
 Resource zones (ore, fertile land, magical sites, rare flora/fauna)
 Adventure sites (caves, cliffs, ruins, anomalies, hazards)
 Actions:
-	- Terraform map squares (must apply to a location or sub-region) 1 CP/square
-	- Create Sub-region (up to 25 squares) 3 CP
+	- Create Sub-region (up to 25 squares. sub-regions cannot overlap, but can merge into one) 3 CP
+	- Terraform map squares (must apply to a location or entire sub-region) 1 CP/square
 	- Alter properties of an entire sub-region (non-magical 1 CP/sq, magical 2 CP/sq)
-	- Create pre-mortal location (1 square) 5 CP 
+	- Create location (+1 starting bonus) 5 CP 
 	- Create mythic creature 5 CP
 	- Seed mythic artifact 8 CP
-	- Mythic location 10 CP
+	- Mythic location (+3 starting bonus) 10 CP
+	- Alter location (+/- level of buff +1-3 bonus) 2 CP
 
 # Age 2 - Ancient People Shaping
 Establish areas for civilizations to live and work
 Actions:
-	- Age 1 terraforming or sub-region actions (mortal shaping not divine) 1 CP/square 2 if magical properties
+	- Age 1 terraforming or alter properties of a sub-region actions (mortal alteration of the land not divine) 1 CP/square 2 if magical properties
 	- Create new civilization (in a sub region) 5 CP
-	- Create minor race (in a sub-region or just a settlement) 3 CP
+	- Create minor race (in a sub-region or a settlement) 3 CP
 Civilization Actions (require an associated civilization):
 	- Alter civilization (culture, learning, military +/- 1) 5 CP
-	- Alter borders (grow/shrink) 1 CP/ 2 squares
 	- Create sub-civilization (specialized group) 8 CP
 	- Alter sub-civilization (+/- level) 3 CP
-	- Create settlement 5 CP (territory is the sub-region or within 2 sq)
+	- Create settlement 5 CP (assign territory to the sub-region or within 2 sq if not in a sub-region)
 	- Alter settlement (Size, Economy, Defences +/- 1) 3 CP
 	- Create civilized location (farming region, religious spot. buffs settlement or civilization stat) 3 CP
 	- Alter location (+/- level of buff +1-3 bonus) 2 CP
+	- Alter terrotory borders (grow/shrink) 1 CP/ 2 squares
 
 # Age 3 - Writing History
 Events (people clash, cultures grow, heroes rise, empires fall)
@@ -269,7 +301,7 @@ Actions:
 	- Age 2 actions (alteration/advancement of existing civilizations, not new races) same cost
 	- Diplomatic Event (2 civs) 10 CP
 	- Mythic Event (threaten/inspire a civilization) 20 CP
-	- Mythic advancement of civilization 15 CP
+	- Mythic advancement of civilization (increase civilization stats to 15 minimum) 15 CP
 	- Create mythic hero 10 CP
 	- Heroic Event 5 CP (existing hero defeats foe or falls)
 	- Create army 10 CP
@@ -395,27 +427,87 @@ Legend
 1111111118888889999999999999999999900000  
 
 ### 6. PANTHEON (Stability vs Change)
-two groups of 4
-each group
+two teams of 4
+each team has
 1 creator (create actions half price)
 3 shapers (alter actions half price)
 
-Stability Portfolio
-unity, pacts, memory, survival
+TEAM A — Order / Civilization / Sun / Destiny
+Age 1 — Foundational Forces
+- Sun (light, heat, day/night cycle)
+- Order (cosmic structure, laws of nature)
+- Stability (mountains, tectonic calm, predictable climates)
+- Creation (landforms, wonders, magic‑aligned structures)
+Age 2 — Civilizational Forces
+- Civilization (cities, law, governance)
+- Knowledge (learning, archives, philosophy)
+- Defense (fortifications, strategy)
+- Economy (trade networks, standardized currency)
+- Culture (art, architecture, ritual order)
+Age 3 — Mythic Forces
+- Destiny (prophecy, fate, divine mandate)
+- Divine Order (mythic law, cosmic hierarchy)
+- Wonders (mythic sites, relics, ascension events)
+- Heroes (champions of order, chosen mortals)
+- Mythic Events (revelations, divine interventions)
 
-Change Portfolio
-growth, advancement, alteration, transformation
+TEAM B — Change / Nature / Magic / Prophecy
+Age 1 — Foundational Forces
+- Nature (forests, rivers, beasts)
+- Change (erosion, volcanic activity, shifting climates)
+- Growth/Decay (seasons, life cycles)
+- Transformation (mutations, wild zones)
+- Primordial Seeds (beasts, chaotic wonders)
+Age 2 — Civilizational Forces
+- Invention (craft, experimentation, breakthroughs)
+- War (raids, conflict, upheaval)
+- Culture (folklore, shamanism, oral tradition)
+- Economy (barter, resource exploitation)
+Age 3 — Mythic Forces
+- Magic
+- Prophecy (omens, visions, fate‑breaking)
+- Heroes (champions of chaos/nature)
+- Mythic Events (storms, plagues, transformations)
+
 
 ### 7. CUSTOM SCENARIO RULES
-• In Age 2 and three there will be two races. Human barbarians in the highlands of the north and a race of aberrations with powerful magic will rule the south.
-• The two races are in a state of war for the entire time. Diplomacy actions are disabled
+• There will be two races each it's own civilization. Human barbarians in the highlands of the north and a race of aberrations with powerful magic will rule the south.
+• The two races are in a state of war for the entire time. 
+• Actions disabled: Create civilization, Diplomacy
 • Aberration race civilization naturally growth for tech (magic) is double (+40% per round)
 • Aberration race prefers the south and will only settle in regions 6 and 7 (preferring 7)
 • Barbarian race civilization growth for military is double (+40% per round)
 • Barbarian race will only settle in regions 2 and 3 preferring 3
 • Diving shaping actions that increase tech (magic) for the aberration civilization give an extra +1 tech +1 military from their magical talent
 • Shaping actions that increase barbarian settlement size give an extra +1
-• Age 3 will end with a cataclysm that brings an end to the aberration's empire leaving the humans to begin age 4 on their own
- 
+• Shared threat: "things from beyond" have an interest in this world and cause events and shapings. Events introduced by the Overgod as play progresses.
+• Shared threat events are custom designed by the Overgod. designed to maintain balance by giving the races something else to focus on. 
+• Shared objective: balance the two races so neither dominates or eliminates the other. for armies [army size + strength] should be within 50-150% of each other. settlement count should not drop below 4 each. two race's [average of civ stat(tech + military)] should be within 50-150% of each other
+• Cross-team shared shapings receive an extra 50% discount
+	- members from each team (or all gods) use their round on a single divine shaping (any type of actions)
+	- bonus applied after pantheon bonuses (creation/alteration specialist) and any special events, but before Overgod adjustments
+• Team A specific goals
+	- balance the two races against each other
+	- keep civilization stats from being too unbalanced. for each race: no civ stat (Culture, Tech (Science or Magic), Military) less than half the highest.
+	- keep settlement stats from being too unbalanced. for each settlement: no settlement stat (Size, Economy, Defences) less than half the highest of that settlement.
+• Team B specific goals
+	- equally grow human military and aberration tech (magic) to mythic level (15+).
+	- maintain state of enduring war between the two races (actively making armies and attacking each other). focus on army vs army clashes in the plains region. try to maintain a minimum of 2 armies for each race.
+• Age 1 shared goals
+	- each race has 4+ sub-regions for future settlements (no minimum size) (sub-regions can be adjacent, but cannot overlap)
+	- human sub-regions in region 2 and 3. prefer 3
+	- aberration sub-regions in region 6 and 7. prefer 7
+	- 8+ mythic locations (1+ in regions 3 and 7, 6+ in regions 1,4,5,8,9, or 0)
+	- 4+ mythic creatures to use to maintain balance in age 3 (not tied to either race)
+• Age 2 shared goals
+	- each race minimum 4 settlements
+	- requirements for vote to end age - human civ stat: military 10+, combined total of all settlement's size 20+, 4+ settlement's defences each 5+
+	- requirements for vote to end age - aberration civ stat: tech (magic) 10+, 4+ settlement's economy each 5+
+• Age 3 shared goals
+	- continue maintaining balance and growth between the 2 civs, ensure war does not reduce settlements below 4 each. same balance measures.
+	- every round armies should be created or move or attack
+	- address Overgod's events from the threat
+	- age 3 ends by final event from the Overgod
+• If an unbalance occurs all gods should prioritize correcting the imbalance, or at least not increasing it. check at the end of each round.
 
 ### END OF DOCUMENT
